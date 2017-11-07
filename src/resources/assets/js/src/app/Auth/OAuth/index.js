@@ -1,0 +1,1 @@
+"use strict";module.exports={path:"oauth/request",getComponent:function(e,t){require.ensure([],function(e){t(null,e("./components/Authorize"))})}};

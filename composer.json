@@ -1,0 +1,22 @@
+{
+    "name": "z5internet/ruf_oauth",
+    "description": "OAuth for RUF",
+    "keywords": ["laravel"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Darren Merrett",
+            "email": "github@z5.ltd"
+        }
+    ],
+    "require": {
+        "league/oauth2-server": "^6.0",
+        "symfony/psr-http-message-bridge": "^1.0",
+        "zendframework/zend-diactoros": "^1.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "z5internet\\RufOAuth\\": "src/"
+        }
+    }
+}
